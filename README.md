@@ -7,8 +7,8 @@ Authors
  
 ## Project Description
 Importance/Interest
-- Steven - This project is interesting to me because I am a big fan of movies and I always use platforms like Netflix and Hulu. Designing this project will allow me to understand how these platforms work behind the scenes like when you click on tabs that sort movies into specific categories. This project can also help me personally because after finishing a movie I often find myself searching google for similar movies with the same genre. \
-- Ishaan - Making a decision based on narrowing down our options is a very powerful yet simple and frequent action that is relevant far beyond the scope of movies. This project will teach me the fundamentals of how to properly translate this idea into a reliable piece of code that can be applied to almost anything as long as a user decides it. Movies are also a more interesting way to broaden my reach in this subject of trees. \
+- Steven - This project is interesting to me because I am a big fan of movies and I always use platforms like Netflix and Hulu. Designing this project will allow me to understand how these platforms work behind the scenes like when you click on tabs that sort movies into specific categories. This project can also help me personally because after finishing a movie I often find myself searching google for similar movies with the same genre. 
+- Ishaan - Making a decision based on narrowing down our options is a very powerful yet simple and frequent action that is relevant far beyond the scope of movies. This project will teach me the fundamentals of how to properly translate this idea into a reliable piece of code that can be applied to almost anything as long as a user decides it. Movies are also a more interesting way to broaden my reach in this subject of trees. 
  
 #### Languages, Tools, Technologies 
    * [toolname](link) - Short description \
