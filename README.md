@@ -18,7 +18,7 @@ Importance/Interest
   
 #### Design Patterns 
  - Composite design pattern: The composite design pattern will be used to implement an interface that will work with other classes. The main interface will be a movie class that branches out to different sub classes "below" it like genres, ratings, actors, etc. This pattern will allow us to implement the feature of comparing the movies in different ways, as well as each the data in classes on the same level to recommend a movie for the user. The greatest benefit of this design pattern is a simplicity of its organization, and how we will treat each "node" equally to then carry requests down the length of the tree. 
- - Strategy Design Pattern: This pattern will be critical in our runtime operations available to the user. The various algorithms we need to include work well with this pattern because each function can be done in similar ways. For example, the user at runtime can choose to sort suggestions of a movie, the only change being the filter. The strategy design pattern assists with just this; on the same level of our composition tree, the user chooses a 'strategy' to complete our sort algorithm. \
+ - Strategy Design Pattern: This pattern will be critical in our runtime operations available to the user. The various algorithms we need to include work well with this pattern because each function can be done in similar ways. For example, the user at runtime can choose to sort suggestions of a movie, the only change being the filter. The strategy design pattern assists with just this; on the same level of our composition tree, the user chooses a 'strategy' to complete our sort algorithm. 
  
  
 Reason for Design Pattern/Implementation 
