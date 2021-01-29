@@ -3,13 +3,13 @@
 Authors
 - Steven Nguyen - https://github.com/steven-nguyen22 
 - Ishaan Bijor - http://github.com/ishbij 
-- Abhinav Ramachandran -   
+- Abhinav Ramachandran - https://github.com/arama033  
  
 ## Project Description
 Importance/Interest
 - Steven - This project is interesting to me because I am a big fan of movies and I always use platforms like Netflix and Hulu. Designing this project will allow me to understand how these platforms work behind the scenes like when you click on tabs that sort movies into specific categories. This project can also help me personally because after finishing a movie I often find myself searching google for similar movies with the same genre. 
 - Ishaan - Making a decision based on narrowing down our options is a very powerful yet simple and frequent action that is relevant far beyond the scope of movies. This project will teach me the fundamentals of how to properly translate this idea into a reliable piece of code that can be applied to almost anything as long as a user decides it. Movies are also a more interesting way to broaden my reach in this subject of trees. 
- 
+- Abhinav - This project is facinating because it is the first time I will get to apply all the coding I have learned class after class to build something I can personally use. I have often found myself browsing endlessly to find a movie to watch, and now my own project will use my preferences to select the perfect movie. We also get to see the full process of working with a team to build a project, from planning to testing. 
 #### Languages, Tools, Technologies 
    * [toolname](link) - Short description \
     C++ - Main coding language used. \
@@ -28,12 +28,9 @@ Importance/Interest
  
  
  >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
- 
- 
- 
+        When implementing our project, the main issue we expect to encounter is properly storing and managing the massive amounts of movies,sorted groups of movies, and individual criteria all under the same data structure. When traversing through our information, we will need to keep the heirarchy of information in the correct order, while making sure we do not miss or double select any individual movie from our data.   
  >   * Why the chosen design pattern will lead to a good solution to that problem
- 
- 
+  We will be using a composite data structure, which will allow us to treat both movies and groups of movies alike. We can create part-whole structures, and as a result represent many more movie groups sorted by different categories than if we chose to not use a composite design pattern. It allows us to organize all our data in an easy to traverse manner. This allows us to have many more sets of movies organized by different specifications in the same data. When we are given a user input for their preffered specifications, we will have more accurate matches and more combinations to select from.
  
  > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  
