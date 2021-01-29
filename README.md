@@ -24,6 +24,7 @@
  > Your project description should summarize the project you are proposing. Be sure to include
  > * Why is it important or interesting to you?\
  > Steven - This project is interesting to me because I am a big fan of movies and I always use platforms like Netflix and Hulu. Designing this project will allow me to understand how these platforms work behind the scenes like when you click on tabs that sort movies into specific categories. This project can also help me personally because after finishing a movie I often find myself searching google for similar movies with the same genre.
+ 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
  >   * [toolname](link) - Short description \
     C++ - Main coding language used. \
@@ -31,7 +32,9 @@
  > * What will be the input/output of your project?\
   The inputs for this project will be the any movie, category, or sub-category a user chooses to remove or add. The outputs for this project will be a list of related movies to the movie the user entered which can be sorted by genre, directors, actors, ratings, etc. 
  > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences: \
-    Composite design pattern - The composite design pattern will be used to implement an interface that will work with other classes. The main interface will be a movie class that branches out to different sub classes like genre, rating, actors, etc. which are the composite part. This pattern will allow us to implement the feature of comparing the movies in different ways. Likewise, this pattern allows us to solve the problem of comparing movies since each sub class will be a child of the main class. This pattern is a good solution to our problem since it provides a simple way of comparing each classes variables. 
+ Design Patterns
+  -Composite design pattern: The composite design pattern will be used to implement an interface that will work with other classes. The main interface will be a movie class that branches out to different sub classes "below" it like genres, ratings, actors, etc. This pattern will allow us to implement the feature of comparing the movies in different ways, as well as each the data in classes on the same level to recommend a movie for the user. The greatest benefit of this design pattern is a simplicity of its organization, and how we will treat each "node" equally to then carry requests down the length of the tree. 
+  >  Strategy Design Pattern: This pattern will be critical in our runtime operations available to the user. The various algorithms we need to include work well with this pattern because each function can be done in similar ways. For example, the user at runtime can choose to sort suggestions of a movie, the only change being the filter. The strategy design pattern assists with just this; on the same level of our composition tree, the user chooses a 'strategy' to complete our sort algorithm. 
  >   * Why you picked this pattern and what feature you will implement with it
  >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
  >   * Why the chosen design pattern will lead to a good solution to that problem
