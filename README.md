@@ -1,7 +1,4 @@
- > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
- > Prompt text is any lines beginning with "\>"
- > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
-# Movie Recommender
+ # Movie Recommender
  > Your author list below should include links to all members GitHub (remove existing author).
  
  > Authors: Steven Nguyen - https://github.com/steven-nguyen22 \
@@ -26,14 +23,14 @@
 Steven - This project is interesting to me because I am a big fan of movies and I always use platforms like Netflix and Hulu. Designing this project will allow me to understand how these platforms work behind the scenes like when you click on tabs that sort movies into specific categories. This project can also help me personally because after finishing a movie I often find myself searching google for similar movies with the same genre. \
 Ishaan - Making a decision based on narrowing down our options is a very powerful yet simple and frequent action that is relevant far beyond the scope of movies. This project will teach me the fundamentals of how to properly translate this idea into a reliable piece of code that can be applied to almost anything as long as a user decides it. Movies are also a more interesting way to broaden my reach in this subject of trees. \
  
-Languages, Tools, Technologies \
+Languages, Tools, Technologies 
  >   * [toolname](link) - Short description \
     C++ - Main coding language used. \
     Hammer - Main platform used. 
 Input/Output
  - The inputs for this project will be the any movie, category, or sub-category a user chooses to remove or add. The outputs for this project will be a list of related movies to the movie the user entered which can be sorted by genre, directors, actors, ratings, etc. 
   
-Design Patterns \
+Design Patterns 
  - Composite design pattern: The composite design pattern will be used to implement an interface that will work with other classes. The main interface will be a movie class that branches out to different sub classes "below" it like genres, ratings, actors, etc. This pattern will allow us to implement the feature of comparing the movies in different ways, as well as each the data in classes on the same level to recommend a movie for the user. The greatest benefit of this design pattern is a simplicity of its organization, and how we will treat each "node" equally to then carry requests down the length of the tree. 
  - Strategy Design Pattern: This pattern will be critical in our runtime operations available to the user. The various algorithms we need to include work well with this pattern because each function can be done in similar ways. For example, the user at runtime can choose to sort suggestions of a movie, the only change being the filter. The strategy design pattern assists with just this; on the same level of our composition tree, the user chooses a 'strategy' to complete our sort algorithm. 
  >   * Why you picked this pattern and what feature you will implement with it
