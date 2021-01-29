@@ -11,9 +11,8 @@ Importance/Interest
 - Ishaan - Making a decision based on narrowing down our options is a very powerful yet simple and frequent action that is relevant far beyond the scope of movies. This project will teach me the fundamentals of how to properly translate this idea into a reliable piece of code that can be applied to almost anything as long as a user decides it. Movies are also a more interesting way to broaden my reach in this subject of trees. 
 - Abhinav - This project is facinating because it is the first time I will get to apply all the coding I have learned class after class to build something I can personally use. I have often found myself browsing endlessly to find a movie to watch, and now my own project will use my preferences to select the perfect movie. We also get to see the full process of working with a team to build a project, from planning to testing. 
 #### Languages, Tools, Technologies 
-   * [toolname](link) - Short description \
-    C++ - Main coding language used. \
-    Hammer - Main platform used. 
+- C++ - Main coding language used. 
+- Hammer - Main platform used. 
 #### Input/Output
  - The inputs for this project will be the any movie, category, or sub-category a user chooses to remove or add. The outputs for this project will be a list of related movies to the movie the user entered which can be sorted by genre, directors, actors, ratings, etc. 
   
@@ -22,10 +21,9 @@ Importance/Interest
  - Strategy Design Pattern: This pattern will be critical in our runtime operations available to the user. The various algorithms we need to include work well with this pattern because each function can be done in similar ways. For example, the user at runtime can choose to sort suggestions of a movie, the only change being the filter. The strategy design pattern assists with just this; on the same level of our composition tree, the user chooses a 'strategy' to complete our sort algorithm. 
  
  
- >   * Why you picked this pattern and what feature you will implement with it
- - Composite design pattern: The most important aspect of this project was a reliable and clear way to organize our movies, by category to subcategory to genre, etc. A composite design pattern goes hand in hand 
- 
- 
+Reason for Design Pattern/Implementation 
+- Composite design pattern: The most important aspect of this project was a reliable and clear way to organize our movies, categories, subcategories, genres, etc. A composite design pattern goes hand in hand with this idea in that we can have separate paths of movies based on their allocated type without them intersecting. From the perspective of our user, they do not care about the composite attribute of each object, but the inheritance hierarchy that we can draw using this design helps us let users compare and choose a specific movie. Additionally, the inheriting of the methods and variables from one movie specification to another mimics the real-life thought processes of how user want to choose their movie, making the composite pattern very convenient.
+- Strategy design pattern: With the ability to access movies completed, the strategy design pattern allows users to sort the movies generated from our suggestion algorithm in different ways. This pattern answers our second challenge, which is offering our user a variety of choices through filter of actor, director, or genre. The classes that will be responsible for these recommendation methods will all be similar to each other, requiring only a change in "strategy" which is why we chose this design pattern as well. This design pattern will also be responsible for our sort the resulting movies after their filters by the ratings, release date, and more that we decide. A key part of this approach is to let the user know all their available options in our movie recommender project, something that the strategy design pattern also is built for. 
  
  >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
         When implementing our project, the main issue we expect to encounter is properly storing and managing the massive amounts of movies,sorted groups of movies, and individual criteria all under the same data structure. When traversing through our information, we will need to keep the heirarchy of information in the correct order, while making sure we do not miss or double select any individual movie from our data.   
