@@ -5,7 +5,7 @@
  > Your author list below should include links to all members GitHub (remove existing author).
  
  > Authors: Steven Nguyen - https://github.com/steven-nguyen22 \
-                        Ishaan Bijor - https://github.com/ishbij\
+            Ishaan Bijor - https://github.com/ishbij\
             Abhinav Ramachandran -   \
             
  
