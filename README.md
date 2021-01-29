@@ -5,7 +5,7 @@
  > Your author list below should include links to all members GitHub (remove existing author).
  
  > Authors: Steven Nguyen - https://github.com/steven-nguyen22 \
-            Ishaan Bijor - https://github.com/ishbij \
+            Ishaan Bijor - \
             Abhinav Ramachandran -   
             
  
@@ -30,7 +30,8 @@
     Hammer - Main platform used. 
  > * What will be the input/output of your project?\
   The inputs for this project will be the any movie, category, or sub-category a user chooses to remove or add. The outputs for this project will be a list of related movies to the movie the user entered which can be sorted by genre, directors, actors, ratings, etc. 
- > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences:
+ > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences: \
+    Composite design pattern - The composite design pattern will be used to implement an interface that will work with other classes. The main interface will be a movie class that branches out to different sub class like genre, rating, actors, etc. which are the composite part.
  >   * Why you picked this pattern and what feature you will implement with it
  >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
  >   * Why the chosen design pattern will lead to a good solution to that problem
