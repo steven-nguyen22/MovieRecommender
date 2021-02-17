@@ -47,7 +47,8 @@ Why design patterns will work
 
 
  >   Link to OMT Diagram: https://drive.google.com/file/d/15Ui5UOwfGAqAvRkmS-8LQJu5OShN7P3T/view?usp=sharing
- >   aaaaaaaa
+ >   For our Movie Recommender program we will have a vector of Movies in main and each of those Movies will have Categories associated with them. The Categories class implements our Composite pattern since genre, actors, ratings, etc. are all categories of Movies. This class also will allow the user to add new categories and remove unwanted categories. The Sort class implements our Strategy pattern for the project, it allows us to make different algorithms that will sort the list of movies in different ways the user wants. We listed Sort Category, Sort Exclude, and Sort Multiple Categories as examples in our limited space but we will still be adding more algorithms like Sorting if a movie has one category or another category later.
+ >    
 ## Class Diagram
  > Include a class diagram(s) for each design pattern and a description of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
 Below is a shareable link to our class diagram:
