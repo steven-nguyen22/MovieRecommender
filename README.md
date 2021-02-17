@@ -46,7 +46,7 @@ Why design patterns will work
  >   
 
 
- >   Link to OMT Diagram: https://drive.google.com/file/d/15Ui5UOwfGAqAvRkmS-8LQJu5OShN7P3T/view?usp=sharing
+ >   Link to OMT Diagram: https://drive.google.com/file/d/15Ui5UOwfGAqAvRkmS-8LQJu5OShN7P3T/view?usp=sharing / 
  >   For our Movie Recommender program we will have a vector of Movies in main and each of those Movies will have Categories associated with them. The Categories class implements our Composite pattern since genre, actors, ratings, etc. are all categories of Movies. This class also will allow the user to add new categories and remove unwanted categories. The Sort class implements our Strategy pattern for the project, it allows us to make different algorithms that will sort the list of movies in different ways the user wants. We listed Sort Category, Sort Exclude, and Sort Multiple Categories as examples in our limited space but we will still be adding more algorithms like Sorting if a movie has one category or another category later.
  >    
 ## Class Diagram
