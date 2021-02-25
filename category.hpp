@@ -1,7 +1,6 @@
 #ifndef __CATEGORY_HPP___
 #define __CATEGORY_HPP__
 
-
 #include <string>
 #include <iostream>
 #include <vector>
@@ -28,8 +27,8 @@ class Category
 		Category(): rating(0), genre(""), director(""), actor(""), release("") {
 			//add default to vector 
 		}		
-		Category(int num);
-		Category(string word);
+		Category(int num): num(0) {}
+		Category(string word): word("");
 
 		//initialise with input if taken from user
 		
@@ -56,8 +55,10 @@ class Category
 			}
 		}
 
-		virtual Category getCategory() {
-
+		virtual Category getCategory(example) {
+			if (example == nullptr) {
+				example = new Category();	
+			}		
 		}
 };
 
