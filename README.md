@@ -69,10 +69,12 @@ For our Movie Recommender program we will have a vector of Movies in the MovieDa
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
  
  ## Screenshots
- > Screenshots of the input/output after running your application
+ > Screenshots of the input/output after running your application <br />
+ Link for Screenshots: https://drive.google.com/drive/folders/14kMEXBsLDppeZXLd5Fczl5i5Pmp12PnN?usp=sharing
  ## Installation/Usage
- > Instructions on installing and running your application
+ > Instructions on installing and running your application <br />
+ To install our program, we recommend using Visual Studio to run the code. To download and copy the code you must first click on the root of the repository then navigate to the  "Clone or download" button highlighted in green in the top right corner, after that click the download zip button.  
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  
- Link for Screenshots: https://drive.google.com/drive/folders/14kMEXBsLDppeZXLd5Fczl5i5Pmp12PnN?usp=sharing
+ 
