@@ -75,3 +75,4 @@ For our Movie Recommender program we will have a vector of Movies in the MovieDa
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  
+ Link for Screenshots: https://drive.google.com/drive/folders/14kMEXBsLDppeZXLd5Fczl5i5Pmp12PnN?usp=sharing
