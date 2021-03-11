@@ -12,7 +12,7 @@ Importance/Interest
 - Abhinav - This project is facinating because it is the first time I will get to apply all the coding I have learned class after class to build something I can personally use. I have often found myself browsing endlessly to find a movie to watch, and now my own project will use my preferences to select the perfect movie. We also get to see the full process of working with a team to build a project, from planning to testing. 
 #### Languages, Tools, Technologies 
 - C++ - Main coding language used. 
-- Hammer - Main platform used. 
+- Visual Studio - Main platform used. 
 #### Input/Output
  - The inputs for this project will be the any movie name, actor, director, year of release, or genre the user chooses to input. The outputs for this project will be a list of related movies to the input the user entered which can be sorted by genre, directors, actors, ratings, etc. 
   
