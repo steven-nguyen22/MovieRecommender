@@ -57,9 +57,11 @@ For our Movie Recommender program we will have a csv file containing the movie d
  
  ## Screenshots
  > Screenshots of the input/output after running your application <br />
+ 
  Link for Screenshots: https://drive.google.com/drive/folders/14kMEXBsLDppeZXLd5Fczl5i5Pmp12PnN?usp=sharing
  ## Installation/Usage
  > Instructions on installing and running your application <br />
+ 
  To install our program, we recommend using Visual Studio to run the code. To download and copy the code you must first click on the root of the repository then navigate to the  "Clone or download" button highlighted in green in the top right corner, after that click the download zip button. You will have to manually recreate all the files and copy and  paste in the code you downloaded from the repository. This program also implements the boost library which will need to be downloaded seperately and connected to Visual Studio. We have attached the following videos below to help you install our program. <br />
  Downloading code off github: https://www.youtube.com/watch?v=X5e3xQBeqf8 <br /> 
  Installing boost library: https://www.youtube.com/watch?v=-YEaxAFIMhc <br /> 
