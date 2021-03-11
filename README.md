@@ -31,19 +31,6 @@ Problems expected when implementing
 Why design patterns will work 
 - We will be using a composite data structure, which will allow us to treat both movies and groups of movies alike. We can create part-whole structures, and as a result represent many more movie groups sorted by different categories than if we chose to not use a composite design pattern. It allows us to organize all our data in an easy to traverse manner. This allows us to have many more sets of movies organized by different specifications in the same data. When we are given a user input for their preffered specifications, we will have more accurate matches and more combinations to select from.
  
- 
-
- > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to 
- > * Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
- >   * Backlog, TODO, In progress, In testing, Done
- >   * You can change these or add more if you'd like, but we should be able to identify at least these.
- > * There is no requirement for automation in the project board but feel free to explore those options.
- > * Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Create smaller development tasks as issues and assign them to team members. Place these in the `Backlog` column.
- >   * These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
- >   
 
 
  
