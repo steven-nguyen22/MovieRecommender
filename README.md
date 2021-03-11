@@ -65,7 +65,8 @@ For our Movie Recommender program we will have a csv file containing the movie d
  Installing boost library: https://www.youtube.com/watch?v=-YEaxAFIMhc <br /> 
  Connecting boost library with Visual Studio: https://www.youtube.com/watch?v=CH_YZ2bePPM <br />
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README. <br />
+ 
  We used unit tests to test the functions in our project.
  
  
